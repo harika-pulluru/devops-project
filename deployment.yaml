@@ -15,5 +15,6 @@ spec:
       containers:
       - name: myapp
         image: harika445/myapp
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
